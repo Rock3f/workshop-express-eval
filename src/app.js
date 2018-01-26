@@ -4,6 +4,6 @@ const app = express();
 
 module.exports = app;
 
-app.get('/home', function(req, res) {
-  res.end('Hello World!');
+app.get('/bingo', function(req, res) {
+  res.end('Bingo');
 })
